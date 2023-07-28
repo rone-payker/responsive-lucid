@@ -1,0 +1,628 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.7em;
+
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Noto Sans', sans-serif;
+
+}
+a{
+	text-decoration: none;
+}
+/*global css code start*/
+
+/*header section css code start here*/
+.header{
+	width: 100%;
+	background: url("../image/banner.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+    
+
+}
+.header .navbar-nav .nav-item .nav-link{
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #fff;
+    margin: 0px 0px 0px 25px;
+    
+}
+.header .navbar-nav .nav-item .nav-link:hover{
+   background: url("../image/underpic.png");
+   background-position: bottom center;
+   background-repeat: no-repeat;
+   background-size: auto;
+  
+}
+.header .navbar-expand-lg .nav-item .nav-link:focus{
+   background: url("../image/underpic.png");
+   background-position: bottom center;
+   background-repeat: no-repeat;
+   background-size: auto;
+}
+.header .navbar-nav .nav-item .active{
+    background: url("../image/underpic.png");
+   background-position: bottom center;
+   background-repeat: no-repeat;
+   background-size: auto;
+}
+
+/*header section css code end here*/
+
+/*banner section css code start here*/
+
+.banner{
+	width: 100%;
+    padding: 150px 0px;
+}
+
+.banner h4{
+	font-size: 20px;
+	line-height: 1.7em;
+	font-weight: 500;
+	text-transform: uppercase;
+    color: #008ed6;
+    letter-spacing: 2px;
+    margin: 113px -1px -137px 6px;
+    
+}
+.banner h1{
+    font-size: 46px;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #fff;
+    margin: 140px 0px 22px 0px;
+}
+
+.banner p{
+	font-size: 20px;
+	line-height: 1.7em;
+    font-weight: 400;
+	text-transform: capitalize;
+	color: #999999;
+}
+.banner .dobble-button{
+	width: 100%;
+	padding: 80px 0px;        
+}
+.banner .dobble-button .btn-primary{
+     padding: 15px 25px;
+     font-size: 16px;
+     text-transform: uppercase;
+     border-radius: 0px;
+     letter-spacing: 1px;
+     border: 2px solid #fff;
+     background: #008ed6;
+     color: #fff;
+     transition: 1s;
+
+}
+.banner .dobble-button .btn-primary:hover{
+     border-radius: 2px solid #fff;
+     background: transparent;
+     color: #008ed6;
+}
+.banner .dobble-button .btn-primary:focus{
+	 border-radius: 2px solid #fff;
+     background: transparent;
+     color: #008ed6;
+}
+.banner .dobble-button .btn-light{
+    padding: 15px 25px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    border: 2px solid #fff;
+    letter-spacing: 1px;
+    background: transparent;
+    color: #fff;
+    transition: 1s;
+    margin: 0px 24px 0px;
+    
+}
+.banner .dobble-button .btn-light:hover{
+	 border: 2px solid #fff;
+     background: #C0C0C0;
+     color: #fff;
+}
+.banner .dobble-button .btn-light:focus{
+	 border-radius: 2px solid #008ed6;
+     background: transparent;
+     color: #fff;
+}
+/*banner section css code end here*/
+
+
+/*feature section css code end here*/
+
+.feature{
+	width: 100%;
+	padding: 150px 0px;
+
+}
+.feature h4{
+	font-size: 20px;
+	line-height: 1.7em;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+    color: #000;
+    letter-spacing: 2px;
+     margin: 46px 0px 10px;
+}
+.feature h1{  
+	font-size: 46px;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+}
+.feature p{  
+	font-size: 22px;
+    line-height: 1.7em;
+    font-weight: 300;
+    text-transform: lowercase;
+    text-align: center;
+    color: #999999;
+}
+/*global css code*/
+a:hover{
+	text-decoration: none;
+}
+.feature img{
+    display: block;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.icon-box{
+	width: 100%;
+	padding: 41px 33px;
+	text-align: center;
+}
+.icon-box .icon{
+    width: 110px;
+    height: 110px;
+    line-height: 120px;
+    border-radius: 100%;
+    margin: 0px auto 20px;
+    border: 1px solid #999999;
+}
+.icon-box .icon .fa{
+	font-size: 35px;
+	color: #008ed6;
+
+
+
+}
+.icon-box h4{
+    font-size: 20px;
+	line-height: 1.2em;
+	font-weight: 600;
+	text-transform: capitalize;
+    color: #000;
+    margin: 0px 0px 10px;
+}
+.icon-box p{
+	font-size: 14px;
+	line-height: 1.7em;
+	font-weight: 400;
+    color: #999999;
+    
+}
+/*feature section css code end here*/
+
+/*about long section css code start here*/
+
+.about-long{ 
+  width: 100%;
+  border-top: 2px solid #000;
+  background: #fff;
+
+}
+.about-long .tittle{
+	    padding: 27px 0px 0px 25px;
+       
+
+}
+.about-long h4{
+	 font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: left;
+    color: #008ed6;
+
+}
+.about-long h1{
+	font-size: 37px;
+    line-height: 1.2em;
+    font-weight: 600;
+    text-align: left;
+    color: #000;
+
+}
+.about-long img{
+    display: inline-block;
+    margin: auto;
+    padding: 15px 0px;
+}
+.about-long p{
+	width: 100%;
+    font-size: 18px;
+    line-height: 1.7em;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: left;
+    color: #999999;
+    padding-left: 22px;
+}
+.about-long ul{
+    display: block;
+    padding: 10px 25px;
+}
+.about-long ul li{
+	list-style: none;
+	display: block;
+	font-size: 18px;
+    line-height: 1.7em;
+    font-weight: 400;
+     text-transform: capitalize;
+}
+.about-long ul li img{
+	width: 20px;
+	height: 49px;
+	margin: 0px 10px 0px 0px;
+}
+/*about long section css code end here*/
+
+.about-short{
+	width: 100%;
+	background: #f2f2f2;
+}
+
+.about-short .tittle{
+	padding: 19px 0px 0px 0px;
+
+}
+.about-short h4{
+	 font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: left;
+    color: #008ed6;
+}
+.about-short h1{
+	font-size: 37px;
+    line-height: 1.2em;
+    font-weight: 600;
+    text-align: left;
+    color: #000;
+}
+.about-short img{
+    display: inline-block;
+    margin: auto;
+    padding: 15px 0px;
+}
+.about-short p{
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.7em;
+    font-weight: 400;
+    text-align: left;
+    color: #999999;
+}
+.tetimonial{
+	width: 100%;
+	background: url("../image/b img.png") center top no-repeat;
+	background-size: cover;
+	margin: 29px 0px 0px;
+}
+.tetimonial h4{
+	font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #008ed6;
+}
+.tetimonial h1{
+	font-size: 37px;
+    line-height: 1.2em;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.tetimonial .owl-carousel .item h4{
+	font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 500;
+    color: #fff;
+    text-align: left;
+    font-style: italic;
+}
+.tetimonial .owl-carousel .item .client{
+    width: 96px;
+    height: 138px;
+    border-radius: 100%;
+}
+.tetimonial .owl-carousel .item p{
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 500;
+    color: #fff;
+    text-align: left;
+    text-transform: capitalize;
+    margin: 40px 20px 40px;
+
+}
+.tetimonial .owl-carousel .item p span{
+     font-weight: 500;
+     text-transform: uppercase;
+}
+.tetimonial .owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+    margin-top: 80px;
+}
+.eye-catcher{
+	width: 100%;
+	padding: 50px 0px ;
+	background: #15141a;
+}
+.eye-catcher h1{
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 1.3em;
+	color: #fff;
+    margin: 33px;
+}
+.eye-catcher .eye-catcher-te span{
+    
+    font-weight: 300;
+
+}
+.eye-catcher .dubbole-button-eye-catcher-te{
+    width: 100%;
+    margin-top:35px
+}
+.eye-catcher .btn-light{
+    padding: 15px 38px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    border-radius: 2px solid #767677;
+    background: transparent;
+    color: #fff;
+    transition: 1s;
+    margin: 0px 24px 0px;
+}
+
+.eye-catcher .btn-light:hover{
+    border-radius: 2px solid #008ed6;
+    background: #008ed6;
+    color: #fff;
+}
+.eye-catcher .btn-light:focus{
+    border-radius: 2px solid #008ed6;
+    background: #008ed6;
+    color: #fff;
+}
+.eye-catcher .btn-primary{
+	 padding: 15px 25px;
+     font-size: 16px;
+     text-transform: uppercase;
+     border-radius: 2px;
+     letter-spacing: 1px;
+     border-radius: 2px solid #008ed6;
+     background: #008ed6;
+     color: #fff;
+     transition: 1s;
+}
+.eye-catcher .btn-primary:hover{
+	 border-radius: 2px solid #008ed6;
+     background: transparent;
+     color: #008ed6;
+}
+.eye-catcher .btn-primary:focus{
+	 border-radius: 2px solid #008ed6;
+     background: transparent;
+     color: #008ed6;
+}
+
+.price-box{
+	width: 100%;
+	text-align: center;
+	border: 2px solid #eee;
+}
+.price-box .price-head{
+	width: 100%;
+	padding: 20px 0px;
+	border-bottom: 2px solid #eee;
+}
+.price-box .price-head h3{
+	font-size: 24px;
+	line-height: 1.3em;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin: 0px;
+}
+.price-box .main-price{
+     width: 100%;
+     padding: 20px 0px;
+     border-bottom: 2px solid #eee;
+}
+.price-box .main-price h1{
+	font-size: 60px;
+    font-weight: 400;
+    line-height: 1.2em;
+    margin: 0px;
+}
+.price-box .main-price h1 sup{
+	font-size: 32px;
+    top: -0.7em;
+}
+.price-box .main-price p{
+	font-size: 18px;
+    font-weight: 400px;
+    line-height: 1.7em;
+    color: #777;
+}
+.price-box .price-content {
+	 width: 100%;
+     padding: 32px 37px;
+}
+.price-box .price-content p{
+	font-size: 20px;
+    font-weight: 400px;
+    line-height: 1.7em;
+    color: #b8b8b8;
+    margin: 0px 0px 40px;
+}
+.price-box .price-content p a{
+	text-decoration: none;
+	color: #008ed6;
+}
+.price-box .price-content .btn-primary{
+	 padding: 15px 25px;
+     font-size: 16px;
+     text-transform: uppercase;
+     border-radius: 2px;
+     letter-spacing: 1px;
+     border-radius: 2px solid #eee;
+     background: transparent;
+     color: #008ed6;
+     transition: 1s;
+}
+.price-box:hover .price-head h3{
+	color: #008ed6;
+}
+.price-box:hover .main-price{
+   background: #008ed6;
+     
+}
+.price-box:hover .main-price h1{
+	color: #fff;
+}
+.price-box:hover .main-price p{
+	color: #fff;
+}
+.price-box:hover .btn-primary{
+	color: #fff;
+	background: #008ed6;
+	border-radius: 2px solid #008ed6;
+}
+.contact{
+	width: 100%;
+	padding: 30px 0px 0px;
+	background: #ededed;
+}
+.contact .tittle{
+	text-align: center;
+}
+.contact .tittle h4{
+	font-size: 13px;
+    line-height: 1.5em;
+    font-weight: 700;
+    color: #008ed6;
+   
+}
+.contact .tittle h1{
+	text-transform: capitalize;
+}
+.contact .tittle img{
+	text-align: center;
+}
+.contact .info{
+	width: 100%;
+	padding: 58px 20px;
+	text-align: center;
+}
+.contact .info .fa{
+	font-size: 31px;
+    color: #008ed6;
+    margin: 0px 0px 14px;
+}
+.contact .info p{
+	font-size: 14px;
+    line-height: 1.7em;
+    color: #999999;
+    margin: 0px;
+}
+.contact-form{
+   width: 100%;
+   padding: 60px 90px;
+   margin: 80px 0px -70px;
+   background: #14141a;
+   position: relative;
+   z-index: 1;
+}
+.contact-form .form-control{
+    padding: 17px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    background: bisque;
+    border: 2px solid #444348;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+.contact-form .text-right{
+	text-align: right;
+
+}
+.contact-form .btn-primary{
+	font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #444348;
+    background: bisque;
+
+}
+.contact-form .btn-primary:hover{
+      color: #444348;
+      background: bisque;
+     
+}
+/* .map{
+
+} */
+/*footer section css code start here*/
+.footer{
+    width: 100%;
+    background: #000;
+}
+.footer .social-icon{
+    text-align: center;
+    padding: 30px 0px 20px;
+}
+.footer .social-icon li {
+   list-style: none;
+   display: inline-block;
+}
+.footer .social-icon li a{
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    margin: 0px 30px 0px;
+    
+}
+/*footer section css code end here*/
+.copyright{
+    width: 100%;
+    background: #000;
+    color: #eee;
+    text-align: center;
+}
